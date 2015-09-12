@@ -8,6 +8,17 @@ var server = http.createServer(webapp);
 
 module.exports = server;
 `````
+## Usage
+Reference the service in your plugin's package.json file:
+`````json
+{
+  "plugin": {
+    "consumes": [
+      "server"
+    ]
+  }
+}
+`````
 
 ## Implementation
 
