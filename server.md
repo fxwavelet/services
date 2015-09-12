@@ -11,5 +11,5 @@ module.exports = server;
 
 ## Implementation
 
-#### fx-express
+#### Plugin: fx-express
 author: BHou
