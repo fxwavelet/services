@@ -11,6 +11,18 @@ var webapp = express();
 module.exports = webapp;
 `````
 
+## Usage
+Reference the service in your plugin's package.json file:
+`````json
+{
+  "plugin": {
+    "consumes": [
+      "webapp"
+    ]
+  }
+}
+`````
+
 ## Implementation
 
 #### Plugin: fx-express
