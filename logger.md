@@ -20,7 +20,7 @@ the logger instance from the interface *getLogger*
 ## Example
 `````javascript
 var Logger = imports.logger;
-var logger = Logger.getInstance('ModuleName');
+var logger = Logger.getLogger('ModuleName');
 
 logger.info('hello world', 'Anonymous', '!');
 logger.warn('hello world!', 'Anonymous', '!!');
