@@ -7,3 +7,4 @@ A collection of wavelet service definitions
 - **server**:   the http web server
 - **express**:  wrapper of expressjs
 - **eventbus**: communicate between plugins without plugin dependencies
+- **middlewares**: express middlewares
